@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="#0003A9F4"
+        android:text=" Conversor Multifuncion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnMonedas"
+        android:layout_width="177dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:onClick="abrir_monedas"
+        android:text="Monedas" />
+
+    <Button
+        android:id="@+id/btnMasa"
+        android:layout_width="177dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:onClick="masa"
+        android:text="Masa" />
+
+    <Button
+        android:id="@+id/btnVolumen"
+        android:layout_width="177dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="260dp"
+        android:onClick="abrir_volumen"
+        android:text="Volumen" />
+
+    <Button
+        android:id="@+id/btnlongitud"
+        android:layout_width="177dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="150dp"
+        android:onClick="abrir_longitud"
+        android:text="Longitud" />
+
+    <Button
+        android:id="@+id/btnArea"
+        android:layout_width="177dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="370dp"
+        android:onClick="abrir_Area"
+        android:text="Almacenamiento" />
+
+    <Button
+        android:id="@+id/btnTiempo"
+        android:layout_width="177dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:onClick="abrir_tiempo"
+        android:text="Tiempo" />
+
+    <Button
+        android:id="@+id/btnTransD"
+        android:layout_width="250dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="480dp"
+        android:onClick="abrir_transfer"
+        android:text="Transferencia de Datos" />
+</RelativeLayout>
