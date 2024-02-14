@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrir_almacenamiento(View view) {
-        Intent intent = new Intent(MainActivity.this, Conver_Almacenamiento.class);
+        Intent intent = new Intent(MainActivity.this, Conver_area.class);
         startActivity(intent);
     }
 
